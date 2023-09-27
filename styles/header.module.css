@@ -1,0 +1,14 @@
+
+
+.heading{
+   font-size:var(--heading);
+   font-weight: var(--w700);
+   letter-spacing: 1px;
+}
+
+.date{
+    text-align: center;
+    font-size: var(--subheading);
+    color:var(--secondary);
+    margin:8px 0;
+}

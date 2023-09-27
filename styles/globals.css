@@ -1,0 +1,23 @@
+*{
+    
+        padding: 0;
+        margin:0;
+        box-sizing: border-box;
+}
+
+:root{
+      --primary:black;
+      --secondary:rgb(154, 154, 154);
+      --red:#f44336;
+      --green:#20bf55;
+
+      --w400:400;
+      --w500:500;
+      --w600:600;
+      --w700:700;
+      --w800:800;
+
+      --body:16px;
+      --subheading:20px;
+      --heading:28px;
+}
