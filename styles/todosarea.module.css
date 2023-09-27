@@ -1,0 +1,41 @@
+.todoarea{
+    margin:20px 0;
+    line-height: 1;
+}
+.singletodo{
+   display: flex;
+   flex-direction: flex-start;
+   justify-content:space-between; 
+   align-items: center;
+   margin:10px 0;
+  
+}
+.ul_class{
+    list-style: none;
+}
+.ul_class>.singletodo>.todo::before{
+    content: "\2022";  
+    margin-right: 20px;
+    display: inline-block;
+    color:var(--red);
+    font-size: 50px;
+   align-items: center;
+     font-weight: var(--w800);
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.singletodo>i{
+   color: var(--secondary);
+   font-size:20px;
+}
+
+.singletodo>i:hover{
+    color: var(--primary);
+    font-size:22px;
+ }

@@ -4,6 +4,7 @@
    font-size:var(--heading);
    font-weight: var(--w700);
    letter-spacing: 1px;
+   text-align: center;
 }
 
 .date{

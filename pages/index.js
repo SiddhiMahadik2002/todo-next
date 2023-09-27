@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { Header } from '@/components/header'
+import { Todosarea } from '@/components/todosarea'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -13,6 +14,7 @@ export default function Home() {
      <div className={styles.blurlayer}>
          <div className={styles.todoDiv}>
            <Header/>
+           <Todosarea/>
          </div>
      </div>
    </div>
