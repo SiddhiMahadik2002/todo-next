@@ -1,0 +1,27 @@
+
+
+.searchbar{
+    position: relative;
+    margin-top:20px;
+}
+.input{
+    width: 100%;
+    font-size:18px;
+    outline:none;
+    border:none;
+    border-bottom: 2px solid #ddd;
+    padding:10px 20px 10px 10px;
+    color:var(--secondary);
+    letter-spacing: 1px;
+}
+.searchbar>i{
+    position: absolute;
+    right:1px;
+    top:8px;
+    color:var(--green);
+    font-size: 25px;
+    cursor: pointer;
+}
+.searchbar>i:hover{
+    font-size: 23px;
+}
