@@ -1,6 +1,6 @@
  
- import styles from '@/styles/searchbar.module.css'
- export const Searchbar = ()=>{
+ import styles from '@/styles/inputbar.module.css'
+ export const Inputbar = ()=>{
     return(
         <div className={styles.searchbar}>
             <input className={styles.input} type="text" placeholder="Enter a new task" />

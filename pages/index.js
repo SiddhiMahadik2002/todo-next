@@ -5,7 +5,7 @@ import styles from '@/styles/Home.module.css'
 import { Header } from '@/components/header'
 import { Todosarea } from '@/components/todosarea'
 import { PercentageBar } from '@/components/percentbar'
-import { Searchbar } from '@/components/searchBar'
+import { Inputbar } from '@/components/inputBar'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,7 +18,7 @@ export default function Home() {
            <Header/>
            <Todosarea/>
            <PercentageBar/>
-           <Searchbar/>
+           <Inputbar/>
          </div>
      </div>
    </div>

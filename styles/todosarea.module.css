@@ -21,6 +21,8 @@
     font-size: 50px;
    align-items: center;
      font-weight: var(--w800);
+     position: relative;
+     bottom:4px;
 }
 
 .todo{
@@ -33,6 +35,9 @@
 .singletodo>i{
    color: var(--secondary);
    font-size:20px;
+   cursor: pointer;
+   position: relative;
+   top:2px;
 }
 
 .singletodo>i:hover{

@@ -16,7 +16,7 @@ export const Todosarea =()=>{
                 <i class="fi fi-rr-cross-small"></i>
             </div>
             <div className={styles.singletodo}>
-                <li className={styles.todo}>Make the bed</li>
+                <li className={styles.todo}>Take a nap from all hardwork</li>
                 <i class="fi fi-rr-cross-small"></i>
             </div>
         </ul>
