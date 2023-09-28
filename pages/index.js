@@ -10,15 +10,20 @@ import { Inputbar } from '@/components/inputBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
+
 export default function Home() {
+
+  const [todoData,settodoData] = ([])
+
   return (
+    
    <div className={styles.main}>
      <div className={styles.blurlayer}>
          <div className={styles.todoDiv}>
            <Header/>
-           <Todosarea/>
+           <Todosarea />
            <PercentageBar/>
-           <Inputbar/>
+           <Inputbar settodoData={settodoData}/>
          </div>
      </div>
    </div>

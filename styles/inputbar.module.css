@@ -3,6 +3,8 @@
 .searchbar{
     position: relative;
     margin-top:20px;
+    display: flex;
+    
 }
 .input{
     width: 100%;
@@ -14,7 +16,7 @@
     color:var(--secondary);
     letter-spacing: 1px;
 }
-.searchbar>i{
+.searchbar>.icon>i{
     position: absolute;
     right:1px;
     top:8px;
@@ -22,6 +24,6 @@
     font-size: 25px;
     cursor: pointer;
 }
-.searchbar>i:hover{
-    font-size: 23px;
+.searchbar>.icon>i:hover{
+   transform: scale(0.8);
 }

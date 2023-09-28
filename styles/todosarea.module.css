@@ -42,5 +42,5 @@
 
 .singletodo>i:hover{
     color: var(--primary);
-    font-size:22px;
+    transform: scale(1.5);
  }
