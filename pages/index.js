@@ -6,6 +6,7 @@ import { Header } from '@/components/header'
 import { Todosarea } from '@/components/todosarea'
 import { PercentageBar } from '@/components/percentbar'
 import { Inputbar } from '@/components/inputBar'
+import { useState } from 'react'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -13,15 +14,16 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
-  const [todoData,settodoData] = ([])
-
+  const [todoData,settodoData] = useState([])
+  
+  console.log(todoData)
   return (
     
    <div className={styles.main}>
      <div className={styles.blurlayer}>
          <div className={styles.todoDiv}>
            <Header/>
-           <Todosarea />
+           <Todosarea data={todoData}/>
            <PercentageBar/>
            <Inputbar settodoData={settodoData}/>
          </div>

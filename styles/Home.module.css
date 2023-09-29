@@ -28,4 +28,9 @@
   margin:auto;
   border-radius: 10px;
   padding: 30px 40px;
+  
+  max-height:80vh;
+}
+.todoarea::-webkit-scrollbar {
+  display: none;
 }

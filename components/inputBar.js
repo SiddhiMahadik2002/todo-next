@@ -4,21 +4,17 @@ import { useState } from 'react'
 
 export const Inputbar = ({settodoData}) => {
     
-  const[todo,setTodo]=useState([])
+ 
     const [input, setinput] = useState();
   
     const addTodo = ()=>{
 
-       settodoData(prevtodo=>[...prevtodo,input])
+       settodoData((prevtodo)=>[...prevtodo,input])
        setinput('')
        
     }
-    console.log(todo)  
-       
-
-
-    console.log(input)
-
+    
+ 
     return (
         <div className={styles.searchbar}>
             <input value={input} onChange={(e) => setinput(e.target.value)} 

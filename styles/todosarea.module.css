@@ -1,6 +1,8 @@
 .todoarea{
     margin:20px 0;
     line-height: 1;
+    flex-grow: 1;
+    overflow-y: auto;
 }
 .singletodo{
    display: flex;
