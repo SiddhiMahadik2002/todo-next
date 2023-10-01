@@ -23,7 +23,7 @@ export default function Home() {
      <div className={styles.blurlayer}>
          <div className={styles.todoDiv}>
            <Header/>
-           <Todosarea data={todoData}/>
+           <Todosarea data={todoData} settodoData={settodoData}/>
            <PercentageBar/>
            <Inputbar settodoData={settodoData}/>
          </div>

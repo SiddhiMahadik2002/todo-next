@@ -34,7 +34,7 @@
     letter-spacing: 0.5px;
 }
 
-.singletodo>i{
+.singletodo>.deleteTodo>i{
    color: var(--secondary);
    font-size:20px;
    cursor: pointer;
@@ -42,7 +42,7 @@
    top:2px;
 }
 
-.singletodo>i:hover{
+.deleteTodo>i:hover{
     color: var(--primary);
     transform: scale(1.5);
  }
